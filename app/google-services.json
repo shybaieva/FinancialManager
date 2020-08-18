@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530960875096",
+    "firebase_url": "https://financialmanager-d5b99.firebaseio.com",
+    "project_id": "financialmanager-d5b99",
+    "storage_bucket": "financialmanager-d5b99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530960875096:android:1e9c6581cca117e582942d",
+        "android_client_info": {
+          "package_name": "net.shybaieva.financialmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530960875096-837pu305a055tm27cbqphp9cnnfjdieg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.shybaieva.financialmanager",
+            "certificate_hash": "cc015d61630322e8abde593d04029cebcd6c5a36"
+          }
+        },
+        {
+          "client_id": "530960875096-j78ofquu1a2d2u3d2jd9bujqj1l8lctc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcnOlHTMZ2CsIJNERVX4qAd3CikfnjJPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530960875096-j78ofquu1a2d2u3d2jd9bujqj1l8lctc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
