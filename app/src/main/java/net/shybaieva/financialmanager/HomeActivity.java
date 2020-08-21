@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity {
 
         bottomNavigationView = findViewById(R.id.bottomNavigBar);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
-        getSupportFragmentManager().beginTransaction().replace(R.id.main_frame, new StatisticFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_frame, new DashBoardFragment()).commit();
     }
 
    private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -33,7 +33,7 @@ public class HomeActivity extends AppCompatActivity {
 
                    switch (item.getItemId()){
                        case R.id.dashboard:{
-                           fragment = new StatisticFragment();
+                           fragment = new DashBoardFragment();
                            break;
                        }
                        case R.id.income:{
