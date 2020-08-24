@@ -14,4 +14,8 @@
         android:id="@+id/expense"
         android:icon="@drawable/minus_ico"
         android:title="Expense" />
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/logout_ico"
+        android:title="LogOut"/>
 </menu>

@@ -48,7 +48,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     return;
                 }
                 else if(TextUtils.isEmpty(passwordS)){
-                    Toast.makeText(RegistrationActivity.this, "Field password is empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegistrationActivity.this, "Field Password is empty", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -63,6 +63,7 @@ public class RegistrationActivity extends AppCompatActivity {
                             Toast.makeText(RegistrationActivity.this, "Registration complete", Toast.LENGTH_SHORT).show();
 
                             startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                            finish();
                         }
                         else {
                             mDisalog.dismiss();

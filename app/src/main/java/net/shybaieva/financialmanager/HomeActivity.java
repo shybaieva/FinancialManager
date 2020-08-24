@@ -1,7 +1,9 @@
 package net.shybaieva.financialmanager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -22,6 +25,7 @@ public class HomeActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomNavigBar);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.main_frame, new DashBoardFragment()).commit();
+
     }
 
    private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -44,6 +48,7 @@ public class HomeActivity extends AppCompatActivity {
                            fragment = new ExpenseFragment();
                            break;
                        }
+
                    }
 
                    getSupportFragmentManager().beginTransaction().replace(R.id.main_frame, fragment).commit();
