@@ -4,25 +4,21 @@ import android.app.AlertDialog;
 
 public class Data {
 
-    private double amount;
+    private String amount;
     private String type;
     private String note;
     private String id;
     private String date;
 
-    public Data(double amount, String type, String note, String id, String date) {
-        this.amount = amount;
-        this.type = type;
-        this.note = note;
-        this.id = id;
-        this.date = date;
+    public Data() {
+
     }
 
-    public double getAmount() {
+    public String getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
